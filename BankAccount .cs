@@ -5,6 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
+//Инкапсуляция в классе "Банковский счет":
+
+//Напишите класс BankAccount с полями AccountNumber, Balance и Owner.
+//Реализуйте методы для депозита и снятия средств, обеспечив проверку корректности операций.
+//Создайте объекты класса и выполните несколько операций.
+
 namespace ClassInheritance
 {
     public class BankAccount
