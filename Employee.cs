@@ -21,7 +21,7 @@ namespace ClassInheritance
             Name = name;
             Position = position;
         }
-        public void Info()
+        public virtual void Info()
         {
             Console.WriteLine($"Имя - {Name},\nдолжность - {Position}");
         }

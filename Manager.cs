@@ -12,9 +12,9 @@ namespace ClassInheritance
 
         public Manager(string name, string position,string departament):base(name,position)
         {
-            this.Department = departament;
+            Department = departament;
         }
-        public void Info()
+        public override void Info()
         {
             Console.WriteLine($"Имя - {Name},\nдолжность - {Position}\nдепартамент - {Department}");
         }
